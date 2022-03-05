@@ -1,139 +1,32 @@
-/* Removing global margin */
 body {
   margin: 0;
-  min-height: 100vh;
+  padding: 0;
   display: flex;
   flex-direction: column;
-  padding: 0;
+  justify-content: flex-start;
+  min-height: 100vh;
 }
 
 /*smooth scroll*/
 html {
   scroll-behavior: smooth;
 }
-/*common class*/
-.container {
-  display: flex;
-}
 
 /*header*/
-.header-section {
-  width: 50%;
-  padding: 20px 20px 0 20px;
-}
-
-nav {
-  ul {
-    padding-top: 12px;
-    font-family: 'Raleway', sans-serif;
-    list-style: none;
-
-    li {
-      text-transform: uppercase;
-      font-size: 20px;
-      color: #437F73;
-      font-weight: bold;
-      display: inline-block;
-      padding-right: 20px;
-
-      a {
-        text-decoration: none;
-        color: black;
-        transition: all 0.5s;
-      }
-    }
-  }
-}
-
-nav ul li a:hover {
-  color: #437f73;
-}
-
-.logotype {
-  vertical-align: top;
-  margin-right: 20px;
-}
-
-#name-block {
-  display: inline-block;
-  text-align: right;
-  width: 155px;
-}
-
-.name {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 800;
-  text-align: left;
-  margin-top: 3px;
-  margin-bottom: 5px;
-  font-size: 24px;
-}
-
-.occupation {
-  font-family: 'Raleway', sans-serif;
-  font-size: 13px;
-  font-weight: 200;
-  margin-top: -3px;
-}
-.specification {
-  font-family: 'Raleway', sans-serif;
-  font-size: 13px;
-  margin-top: -14px;
-}
-
 #humber-logo {
   float: right;
   margin-right: 50px;
 }
 
-/*home page*/
-.welcome-screen {
-  max-width: 100%;
-  margin: auto;
-}
-
-.preview {
-  display: flex;
-  padding: 20px;
-  border: 2px solid black;
-  position: relative;
-}
-
-.preview .show-more {
-  position: absolute;
-  right: 10px;
-  bottom: 10px;
-}
-
-.preview img {
-  width: 30%;
-  object-fit: cover;
-  padding-right: 20px;
-}
 
 /*Footer*/
 footer {
-  height: 100px;
-  line-height: 100px;
+  width: 100%;
+  height: 38px;
+  line-height: 38px;
   background-color: #e8e8e8;
-  padding-left: 80px;
-  text-transform: uppercase;
   color: #2b2b2c;
+  opacity: 0.6;
+  padding-left: 20px;
   margin-top: auto;
-}
-
-#footer-contacts {
-  margin: 0;
-  display: inline-block;
-  padding-right: 30%;
-  font-family: 'Raleway', sans-serif;
-}
-.social-media a{
-  text-decoration: none;
-}
-.social-media img{
-  width: 40px;
-  margin-right: 50px;
-  float: right;
-  margin-top: 30px;
 }
