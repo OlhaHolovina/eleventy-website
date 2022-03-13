@@ -30,3 +30,8 @@ footer {
   padding-left: 20px;
   margin-top: auto;
 }
+
+.home-img {
+  min-height: calc(100vh - 100px);
+  object-fit: cover;
+}
