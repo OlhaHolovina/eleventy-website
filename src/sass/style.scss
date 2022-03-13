@@ -35,3 +35,18 @@ footer {
   min-height: calc(100vh - 100px);
   object-fit: cover;
 }
+
+h1 {
+  margin-top: 20px;
+}
+
+.gallery {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  img {
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+  }
+}
